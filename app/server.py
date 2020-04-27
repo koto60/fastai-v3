@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-AoONUAGzIvr7dxDAn81k5yaHPeCAEtr'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['cantharellus cibarius','cantharellus tubaeformis','hygrophoropsis aurantiaca']
 path = Path(__file__).parent
 
 app = Starlette()
